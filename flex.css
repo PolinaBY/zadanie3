@@ -6,7 +6,6 @@ html,body
 {
   display: flex;
   background-color: #228b22;
-  flex-direction: row;
   align-content: flex-start;
   flex-grow: 1;
   color: #ffffff;
@@ -50,11 +49,11 @@ html,body
 }
 p
 {
+  display: flex;
   list-style-type: none;
   display: inline-block;
-  float: left;
-  margin-right: 80px;
-  text-align: center;
+  flex-direction: row;
+  flex-grow: 1;
 } 
 table 
 {
