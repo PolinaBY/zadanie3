@@ -20,6 +20,13 @@ html,body
   align-content: flex-end;
   flex-grow: 1;
 }
+.menu
+{
+  display: flex;
+  background-color: #f8f8ff;
+  flex-direction: row;
+  flex-grow: 1;
+}
 .silki
 {
   display: flex;
@@ -87,8 +94,33 @@ tr.even
   }
 .menu
 {
-  background-color: #f8f8ff;
   display: flex;
+  background-color: #f8f8ff;
   flex-direction: column;
+  flex-grow: 1;
+}
+  .silki
+{
+  display: flex;
+  background-color: #f8f8ff;
+  flex-basis: auto;
+  justify-content: center;
+  flex-grow: 1;
+}
+.table
+{
+  display: flex;
+  background-color: #f8f8ff;
+  flex-basis: auto;
+  justify-content: center;
+  flex-grow: 1;
+}
+.forma
+{
+  display: flex;
+  background-color: #f8f8ff;
+  flex-basis: auto;
+  justify-content: center;
+  flex-grow: 1;
 }
 }
