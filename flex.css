@@ -10,6 +10,7 @@ html,body
   align-content: flex-start;
   flex-grow: 1;
   color: #ffffff;
+  font-size: 60px;
 }
 .footer
 {
@@ -19,14 +20,26 @@ html,body
   align-content: flex-end;
   flex-grow: 1;
 }
-@media screen and (max-width: 480px) {
-#logo 
+.silki
 {
-  width: 100px;
-  height: 100px;
-  float: left;
-  margin-right: 340px;
-  margin-left: 480px;
+  display: flex;
+  background-color: #f8f8ff;
+  flex-basis: auto;
+  justify-content: center;
+}
+.table
+{
+  display: flex;
+  background-color: #f8f8ff;
+  flex-basis: auto;
+  justify-content: center;
+}
+.forma
+{
+  display: flex;
+  background-color: #f8f8ff;
+  flex-basis: auto;
+  justify-content: center;
 }
 p
 {
@@ -36,19 +49,6 @@ p
   margin-right: 80px;
   text-align: center;
 } 
-.menu
-{
-  background-color: #f8f8ff;
-  display: flex;
-  flex-direction: column;
-}
-.silki
-{
-  display: flex;
-  background-color: #f8f8ff;
-  flex-basis: auto;
-  justify-content: center;
-}
 table 
 {
   border: 1px solid #228b22;
@@ -76,18 +76,19 @@ tr.even
 {
   background: #e2f8d7;
 }
-.table
+@media screen and (max-width: 480px) {
+#logo 
 {
-  display: flex;
-  background-color: #f8f8ff;
-  flex-basis: auto;
-  justify-content: center;
-}
-.forma
+  width: 100px;
+  height: 100px;
+  float: left;
+  margin-right: 340px;
+  margin-left: 480px;
+  }
+.menu
 {
-  display: flex;
   background-color: #f8f8ff;
-  flex-basis: auto;
-  justify-content: center;
+  display: flex;
+  flex-direction: column;
 }
 }
