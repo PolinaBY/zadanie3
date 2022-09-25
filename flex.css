@@ -7,6 +7,8 @@ html,body
   display: flex;
   background-color: #228b22;
   flex-grow: 1;
+  flex-direction: row-reverse;
+  justify-content: flex-end;
   color: #ffffff;
   font-size: 60px;
 }
@@ -15,6 +17,7 @@ html,body
   display: flex;
   background-color: #228b22;
   color: #ffffff;
+  margin-top: 20px;
   flex-grow: 1;
 }
 table 
@@ -49,13 +52,13 @@ tr.even
 {
   display: flex;
   justify-content: flex-start;
-  margin-left: 100px;
-  order: 2;
+  margin-right: 100px;
   }
 .menu
 {
   display: flex;
   background-color: #f8f8ff;
+  margin-top: 20px;
   flex-direction: column;
   flex-grow: 1;
 }
@@ -89,8 +92,6 @@ tr.even
 @media screen and (min-width: 1224px){
 #logo 
 {
-  width: 100px;
-  height: 100px;
   float: left;
   margin-right: 100px;
   margin-left: 240px;
