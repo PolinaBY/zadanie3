@@ -19,36 +19,9 @@ html,body
   align-content: flex-end;
   flex-grow: 1;
 }
-.menu
-{
-  display: flex;
-  background-color: #f8f8ff;
-  flex-direction: row;
-  flex-grow: 1;
-}
-.silki
-{
-  display: flex;
-  background-color: #f8f8ff;
-  flex-basis: auto;
-  justify-content: center;
-}
-.table
-{
-  display: flex;
-  background-color: #f8f8ff;
-  flex-basis: auto;
-  justify-content: center;
-}
-.forma
-{
-  display: flex;
-  background-color: #f8f8ff;
-  flex-basis: auto;
-  justify-content: center;
-}
 p
 {
+  margin-right: 80px;
   display: flex;
   list-style-type: none;
   display: inline-block;
@@ -81,7 +54,6 @@ tr.even
 {
   background: #e2f8d7;
 }
-@media screen and (max-width: 480px) {
 #logo 
 {
   width: 100px;
@@ -120,5 +92,42 @@ tr.even
   flex-basis: auto;
   justify-content: center;
   flex-grow: 1;
+}
+@media screen and (min-width: 768px){
+#logo 
+{
+  width: 100px;
+  height: 100px;
+  float: left;
+  margin-right: 340px;
+  margin-left: 480px;
+  }
+.menu
+{
+  display: flex;
+  background-color: #f8f8ff;
+  flex-direction: row;
+  flex-grow: 1;
+}
+.silki
+{
+  display: flex;
+  background-color: #f8f8ff;
+  flex-basis: auto;
+  margin-left:480px;
+}
+.table
+{
+  display: flex;
+  background-color: #f8f8ff;
+  flex-basis: auto;
+  margin-left:480px;
+}
+.forma
+{
+  display: flex;
+  background-color: #f8f8ff;
+  flex-basis: auto;
+  margin-left:480px;
 }
 }
