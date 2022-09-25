@@ -63,23 +63,22 @@ tr.even
 }
   .silki
 {
-  order: 1;
   display: flex;
   background-color: #f8f8ff;
   flex-basis: auto;
   flex-grow: 1;
 }
-.table
-{
-  order: 3;
-  display: flex;
-  background-color: #f8f8ff;
-  flex-basis: auto;
-  flex-grow: 1;
-}
-.forma
+.table: nth-child(2)
 {
   order: 2;
+  display: flex;
+  background-color: #f8f8ff;
+  flex-basis: auto;
+  flex-grow: 1;
+}
+.forma nth-child(3)
+{
+  order: 3;
   display: flex;
   background-color: #f8f8ff;
   flex-basis: auto;
