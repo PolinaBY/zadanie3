@@ -88,6 +88,8 @@ tr.even
 @media screen and (min-width: 1224px){
 #logo 
 {
+  width: 100px;
+  height: 100px;
   float: left;
   margin-right: 100px;
   margin-left: 240px;
@@ -98,6 +100,8 @@ tr.even
   background-color: #f8f8ff;
   flex-direction: row;
   margin-left: 50px;
+  margin-left: 240px;
+  margin-right: 240px;
 }
   p
 {
