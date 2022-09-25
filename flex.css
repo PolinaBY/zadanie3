@@ -63,6 +63,7 @@ tr.even
 }
   .silki
 {
+  order: 1;
   display: flex;
   background-color: #f8f8ff;
   flex-basis: auto;
@@ -70,6 +71,7 @@ tr.even
 }
 .table
 {
+  order: 3;
   display: flex;
   background-color: #f8f8ff;
   flex-basis: auto;
@@ -78,6 +80,7 @@ tr.even
 }
 .forma
 {
+  order: 2;
   display: flex;
   background-color: #f8f8ff;
   flex-basis: auto;
