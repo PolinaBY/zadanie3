@@ -67,7 +67,6 @@ tr.even
   background-color: #f8f8ff;
   flex-basis: auto;
   flex-grow: 1;
-  order: 2;
 }
 .table
 {
@@ -75,6 +74,7 @@ tr.even
   background-color: #f8f8ff;
   flex-basis: auto;
   flex-grow: 1;
+  order: 2;
 }
 .forma
 {
@@ -82,6 +82,7 @@ tr.even
   background-color: #f8f8ff;
   flex-basis: auto;
   flex-grow: 1;
+  order: 1;
 }
   p
 {
