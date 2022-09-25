@@ -9,13 +9,13 @@ html,body
   flex-grow: 1;
   color: #ffffff;
   font-size: 60px;
+  justify-content: flex-end;
 }
 .footer
 {
   display: flex;
   background-color: #228b22;
   color: #ffffff;
-  align-content: flex-end;
   flex-grow: 1;
 }
 table 
