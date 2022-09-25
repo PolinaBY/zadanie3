@@ -67,18 +67,17 @@ tr.even
   background-color: #f8f8ff;
   flex-basis: auto;
   flex-grow: 1;
+  order: 1;
 }
-.table: nth-child(2)
+.table
 {
-  order: 2;
   display: flex;
   background-color: #f8f8ff;
   flex-basis: auto;
   flex-grow: 1;
 }
-.forma: nth-child(3)
+.forma
 {
-  order: 3;
   display: flex;
   background-color: #f8f8ff;
   flex-basis: auto;
