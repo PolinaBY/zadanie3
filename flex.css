@@ -99,6 +99,13 @@ tr.even
   flex-direction: column;
   flex-grow: 1;
 }
+  p
+{
+  display: flex;
+  list-style-type: none;
+  flex-direction: column;
+  flex-grow: 1;
+} 
   .silki
 {
   display: flex;
