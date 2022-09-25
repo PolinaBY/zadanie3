@@ -11,49 +11,6 @@ html,body
   color: #ffffff;
   font-size: 60px;
 }
-@media only screen and (min-width : 320px) and (max-width : 480px) {
-#logo 
-{
-  width: 100px;
-  height: 100px;
-  float: left;
-  margin-right: 340px;
-  margin-left: 480px;
-  }
-.menu
-{
-  display: flex;
-  background-color: #f8f8ff;
-  flex-direction: column;
-  flex-grow: 1;
-}
-  .silki
-{
-  display: flex;
-  background-color: #f8f8ff;
-  flex-basis: auto;
-  flex-grow: 1;
-}
-.table
-{
-  display: flex;
-  background-color: #f8f8ff;
-  flex-basis: auto;
-  flex-grow: 1;
-}
-.forma
-{
-  display: flex;
-  background-color: #f8f8ff;
-  flex-basis: auto;
-  flex-grow: 1;
-}
-  p
-{
-  display: flex;
-  list-style-type: none;
-} 
-}
 .footer
 {
   display: flex;
@@ -89,6 +46,45 @@ tr.even
 {
   background: #e2f8d7;
 }
+@media only screen and (min-width : 320px) and (max-width : 480px) {
+#logo 
+{
+  float: left;
+  margin-left: 100px;
+  }
+.menu
+{
+  display: flex;
+  background-color: #f8f8ff;
+  flex-direction: column;
+  flex-grow: 1;
+}
+  .silki
+{
+  display: flex;
+  background-color: #f8f8ff;
+  flex-basis: auto;
+  flex-grow: 1;
+}
+.table
+{
+  display: flex;
+  background-color: #f8f8ff;
+  flex-basis: auto;
+  flex-grow: 1;
+}
+.forma
+{
+  display: flex;
+  background-color: #f8f8ff;
+  flex-basis: auto;
+  flex-grow: 1;
+}
+  p
+{
+  list-style-type: none;
+} 
+}
 @media screen and (min-width: 1224px){
 #logo 
 {
@@ -116,20 +112,23 @@ tr.even
   display: flex;
   background-color: #f8f8ff;
   flex-basis: auto;
-  margin-left: 50px;
+  margin-left: 240px;
+  margin-right: 240px;
 }
 .table
 {
   display: flex;
   background-color: #f8f8ff;
   flex-basis: auto;
-  margin-left: 50px;
+  margin-left: 240px;
+  margin-right: 240px;
 }
 .forma
 {
   display: flex;
   background-color: #f8f8ff;
   flex-basis: auto;
-  margin-left: 50px;
+  margin-left: 240px;
+  margin-right: 240px;
 }
 }
