@@ -6,7 +6,6 @@ html,body
 {
   display: flex;
   background-color: #228b22;
-  align-content: flex-start;
   flex-grow: 1;
   color: #ffffff;
   font-size: 60px;
