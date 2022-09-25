@@ -31,7 +31,6 @@ html,body
   display: flex;
   background-color: #f8f8ff;
   flex-basis: auto;
-  justify-content: center;
   flex-grow: 1;
 }
 .table
@@ -39,7 +38,6 @@ html,body
   display: flex;
   background-color: #f8f8ff;
   flex-basis: auto;
-  justify-content: center;
   flex-grow: 1;
 }
 .forma
@@ -47,7 +45,6 @@ html,body
   display: flex;
   background-color: #f8f8ff;
   flex-basis: auto;
-  justify-content: center;
   flex-grow: 1;
 }
 .footer
@@ -60,11 +57,8 @@ html,body
 }
 p
 {
-  margin-right: 80px;
   display: flex;
   list-style-type: none;
-  display: inline-block;
-  flex-direction: row;
 } 
 table 
 {
@@ -93,7 +87,7 @@ tr.even
 {
   background: #e2f8d7;
 }
-@media screen and (min-width: 800px){
+@media screen and (min-width: 900px){
 #logo 
 {
   float: left;
@@ -107,25 +101,33 @@ tr.even
   flex-direction: row;
   flex-grow: 1;
 }
+  p
+{
+  list-style-type: none;
+  display: inline-block;
+  float: left;
+  margin-right: 80px;
+  text-align: center;
+} 
 .silki
 {
   display: flex;
   background-color: #f8f8ff;
   flex-basis: auto;
-  margin-left: 240px;
+  margin-left: 100px;
 }
 .table
 {
   display: flex;
   background-color: #f8f8ff;
   flex-basis: auto;
-  margin-left: 240px;
+  margin-left: 100px;
 }
 .forma
 {
   display: flex;
   background-color: #f8f8ff;
   flex-basis: auto;
-  margin-left: 240px;
+  margin-left: 100px;
 }
 }
