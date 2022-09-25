@@ -76,7 +76,7 @@ tr.even
   flex-basis: auto;
   flex-grow: 1;
 }
-.forma nth-child(3)
+.forma: nth-child(3)
 {
   order: 3;
   display: flex;
