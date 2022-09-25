@@ -1,3 +1,7 @@
+#container 
+{
+  display: flex;
+}
 html,body 
 {
   background-color: #e2f8d7;
