@@ -1,34 +1,31 @@
 <!DOCTYPE html>
- <html lang="ru">
-   <head>
-    <title> Буква Ю </title>
-    <link rel="stylesheet" href="flex.css">
-   </head>
-   <body>
-     <header>
-      <div id="line">
-       <a>Буква Ю</a>
-        <div id="logo">
-         <img src="https://i.ibb.co/Wxq7Vyn/image.png" Width="100" Height="100" alt="name"/>
-       </div>
-      </div>
-    </header>
-    <nav>
-     <div class="menu">
-	     <ul>
-	      <p><a href="index.html" title="Главная информация о компании">Главная</a></p>
-	      <p><a href="#Гиперссылки" title="Нумированный список гиперссылок">Гиперссылки</a></p>
-       	      <p><a href ="#Таблица" title="Таблица с контентом">Таблица</a></p>
-	      <p><a href ="#Форма" title="Перейти к заполнению формы">Форма</a></p>
-	     </ul>
-     </div>
-    </nav>
-    <nav id="Гиперссылки">
-	    <div style="max-width:960px; margin-left: 240px; margin-top:20px; padding:10px;">
-		    <h4>Гиперссылки:</h4>
-	    </div>
-	   </nav>
+<html lang="ru">
+	<head>
+		<meta charset="UTF-8" />
+		<title> Буква Ю </title>
+		<link rel="stylesheet" href="flex.css">
+	</head>
+	<body>
+		<header>
+			<div id="line">
+				<a>Буква Ю</a>
+				<div id="logo">
+					<img src="https://i.ibb.co/Wxq7Vyn/image.png" Width="100" Height="100" alt="name"/>
+				</div>
+			</div>
+		</header>
+		
+		<nav>
+			<ul class="menu">
+				<li><a href="index.html" title="Главная информация о компании">Главная</a></li>
+				<li><a href="#Гиперссылки" title="Нумированный список гиперссылок">Гиперссылки</a></li>
+				<li><a href ="#Таблица" title="Таблица с контентом">Таблица</a></li>
+				<li><a href ="#Форма" title="Перейти к заполнению формы">Форма</a></li>
+			</ul>
+		</nav>
+		
       <div class="silki">
+	      <h4 id="Гиперссылки">Гиперссылки</h4>
         <ol> 
          <li><a href="http://example.com/">Задание 1</a></li>
          <li><a href="https://example.com/">Задание 2</a></li>
@@ -62,13 +59,9 @@
          <li><a href="/about">Задание 21</a></li>
         </ol>
        </div>
-	   <div id="1">
-	    <nav id="Таблица">
-		    <div style="max-width:960px; margin-left: 240px; margin-top:20px; padding:10px;">
-			    <h4>Таблица:</h4>
-		    </div>
-	    </nav>
+	  
 	<div class="table">
+		<h4 id="Таблица">Таблица</h4>
         <table>
          <caption>Участники опроса</caption>
          <tr>
@@ -93,12 +86,10 @@
          </tr>
         </table>
        </div>
-            <nav id="Форма">
-		 <div style="max-width:960px; margin-left: 240px; margin-top:20px; padding:10px;">
-			    <h4>Форма:</h4>
-		 </div>
-	    </nav>
+	   
+	   
       <div class="forma">
+	      <h4 id="Форма">Форма</h4>
         <form action="URL_отправки_данных" method="POST">
          <label>
          Имя:
@@ -169,9 +160,10 @@
 	Отправить форму: 
          <input type="submit" value="Отправить" />
      </form>
+	      
     </div>
-	   </div>
      <footer class="footer" id="foot">
       <h5> © Быкова Полина 2022 </h5>
     </footer>
   </body>
+</html>
