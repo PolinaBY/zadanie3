@@ -87,7 +87,6 @@ tr.even
   background-color: #f8f8ff;
   flex-basis: auto;
   flex-grow: 1;
-  order: 3;
   flex-direction: column;
 }
 .forma
@@ -97,7 +96,7 @@ tr.even
   background-color: #f8f8ff;
   flex-basis: auto;
   flex-grow: 1;
-  order: 2;
+  order: -1;
   flex-direction: column;
 }
 @media screen and (min-width: 1224px){
@@ -143,6 +142,7 @@ tr.even
   margin-left: 240px;
   margin-right: 240px;
   flex-direction: column;
+  order: 1;
   pudding: 10px;
 }
 .forma
