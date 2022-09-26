@@ -106,7 +106,7 @@ tr.even
   margin-left: 240px;
   margin-right: 240px;
 }
-.menu li
+.menu a
 {
   list-style-type: none;
   display: inline-block;
@@ -121,6 +121,7 @@ tr.even
   flex-basis: auto;
   margin-left: 240px;
   margin-right: 240px;
+  pudding: 10px;
 }
 .table
 {
@@ -129,6 +130,7 @@ tr.even
   flex-basis: auto;
   margin-left: 240px;
   margin-right: 240px;
+  pudding: 10px;
 }
 .forma
 {
@@ -137,5 +139,6 @@ tr.even
   flex-basis: auto;
   margin-left: 240px;
   margin-right: 240px;
+  pudding: 10px;
 }
 }
