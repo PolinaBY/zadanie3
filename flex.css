@@ -76,6 +76,7 @@ tr.even
 }
 .table
 {
+  margin-top: 20px;
   display: flex;
   background-color: #f8f8ff;
   flex-basis: auto;
@@ -84,6 +85,7 @@ tr.even
 }
 .forma
 {
+  margin-top: 20px;
   display: flex;
   background-color: #f8f8ff;
   flex-basis: auto;
@@ -125,6 +127,7 @@ tr.even
 }
 .table
 {
+  margin-top: 20px;
   display: flex;
   background-color: #f8f8ff;
   flex-basis: auto;
@@ -134,6 +137,7 @@ tr.even
 }
 .forma
 {
+  margin-top: 20px;
   display: flex;
   background-color: #f8f8ff;
   flex-basis: auto;
