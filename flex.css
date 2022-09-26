@@ -75,6 +75,11 @@ tr.even
   flex-grow: 1;
   flex-direction: column;
 }
+.tableandform
+{
+  display: flex;
+  flex-direction: column;
+}
 .table
 {
   margin-top: 20px;
