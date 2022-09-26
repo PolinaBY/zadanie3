@@ -130,7 +130,6 @@ tr.even
   flex-basis: auto;
   margin-left: 240px;
   margin-right: 240px;
-  pudding: 10px;
   flex-direction: column;
 }
 .table
@@ -143,7 +142,6 @@ tr.even
   margin-right: 240px;
   flex-direction: column;
   order: 1;
-  pudding: 10px;
 }
 .forma
 {
@@ -153,7 +151,6 @@ tr.even
   flex-basis: auto;
   margin-left: 240px;
   margin-right: 240px;
-  pudding: 10px;
   flex-direction: column;
 }
 }
